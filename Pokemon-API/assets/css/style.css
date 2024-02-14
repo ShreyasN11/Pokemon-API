@@ -1,0 +1,44 @@
+.stat-bar {
+    height: 28px; /* Adjust height as needed */
+    background-color: white; /* Green background color */
+    position: relative; /* Needed for absolute positioning of value */
+}
+
+.stat-value {
+    position: absolute;
+    top: 50%;
+    left: 5px; /* Adjust the position of the value */
+    transform: translateY(-50%);
+    color: black; /* Color of the numerical value */
+    font-weight: bold;
+    font-size: 14px; /* Adjust font size as needed */
+}
+
+.stat-align{
+    display: flex;
+    justify-content:flex-start;
+}
+
+.psychic{
+    background-color: #b080d0;
+}
+
+.poison{
+    background-color: #7b63ad;
+}
+
+.fighting{
+    background-color: brown;
+}
+
+.rock{
+    background-color: #674107;
+}
+
+.ground{
+    background-color: #d0ca92;
+}
+
+.fairy{
+    background-color: lightpink;
+}
